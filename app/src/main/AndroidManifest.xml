@@ -12,12 +12,83 @@
         android:theme="@style/Theme.MotionLayoutAnimations"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Step1Activity"
+            android:label="@string/title_activity_step1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step2Activity"
+            android:label="@string/title_activity_step2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step3Activity"
+            android:label="@string/title_activity_step3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step4Activity"
+            android:label="@string/title_activity_step4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step5Activity"
+            android:label="@string/title_activity_step5">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step6Activity"
+            android:label="@string/title_activity_step6">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step7Activity"
+            android:label="@string/title_activity_step7">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step7CompletedActivity"
+            android:label="@string/title_activity_step7_completed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step8Activity"
+            android:label="@string/title_activity_step8"
+            android:theme="@style/Theme.MotionLayoutAnimations.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Step8CompletedActivity"
+            android:label="@string/title_activity_step8"
+            android:theme="@style/Theme.MotionLayoutAnimations.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
